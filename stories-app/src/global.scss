@@ -1,0 +1,40 @@
+// Fonts
+@font-face {
+    font-family: miracle;
+    src: url(/assets/fonts/Miraculous&Christmas.ttf);
+}
+
+// Colors
+$brownTitle: #240000;
+$brownMonkey: #6c4b44;
+$skinMonkey: #ffb994;
+$skinMonkeyLight: #f7dccd;
+$redTuxedo: #c33c17;
+$goldCustom: #f5c161;
+
+// Font and color of the logo
+.stories-style{
+    font-family: miracle;
+    color: $brownTitle
+}
+
+// Infinite pop animation
+@keyframes pop {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+    }
+}
+.pop-effect {
+    animation: pop 3s ease-in-out infinite alternate;
+    -webkit-animation: pop 3s ease-in-out infinite alternate;
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

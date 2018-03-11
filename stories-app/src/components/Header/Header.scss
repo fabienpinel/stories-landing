@@ -1,9 +1,17 @@
+@import "../../global.scss";
+
+
+
 section.header {
     text-align: center;
     max-width: 100%;
+    background: $goldCustom;
 
     img.logo{
         max-width: 100%;
         width: 30%;
+    }
+    .test{
+        font-family: miracle;
     }
 }

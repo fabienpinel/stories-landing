@@ -7,7 +7,7 @@ class Header extends Component {
             <section className="header">
                 <div>
                     <img
-                        className="logo"
+                        className="logo pop-effect"
                         src="../../../assets/img/LogoHD_Color_without_title.png" />
                 </div>
                 <div>

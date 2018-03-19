@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Row, Col } from 'react-flexbox-grid';
 import './Brands.scss';
 
 class Brands extends Component {
@@ -145,22 +146,30 @@ class Brands extends Component {
     render() {
         return (
             <section className="brands">
-                {this.state.brandList.map(function (brand, index) {
-                    return (
-                        <div
-                            className="brand-container"
-                            key={brand.name}>
+                <Row>
+                    <Col sm={12} md={10} mdOffset={1} lg={8} lgOffset={2}>
+                        <h1>Nos marques</h1>
 
-                            <img
-                                src={"/assets/img/brands/" + brand.logo} />
-                            <span>
-                                {brand.name}
-                            </span>
+                        {this.state.brandList.map(function (brand, index) {
+                            return (
+                                <div
+                                    className="brand-container"
+                                    key={brand.name}>
+                                    <img
+                                        src={"/assets/img/brands/" + brand.logo} />
+                                    <span>
+                                        {brand.name}
+                                    </span>
 
-                        </div>
+                                </div>
 
-                    );
-                })}
+
+
+                            );
+                        })}
+
+                    </Col>
+                </Row>
             </section>
         );
     }

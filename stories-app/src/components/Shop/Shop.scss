@@ -1,5 +1,13 @@
+div.shop-container {
+    z-index: 0;
+    height: auto;
+    background: #f7f7f7;
+}
 section.shop{
     padding: 0;
+    background: #f7f7f7;
+    margin-top: -150px;
+    padding-top: 80px;
     img.monkeys{
         width: 100%;
     }

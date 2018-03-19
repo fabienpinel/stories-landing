@@ -11,10 +11,14 @@ module.exports = {
         filename: "bundle.js"
     },
     module: {
-        loaders:[
+        loaders: [
             {
                 test: /\.scss$/,
                 loader: ExtractTextPlugin.extract('css!sass')
+            },
+            {
+                test: /\.css$/,
+                loader: 'style!css!'
             },
             {
                 test: /\.(png|jpg|woff|woff2|eot|ttf|svg)$/,
@@ -25,9 +29,9 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: "babel-loader",
                 query:
-                {
-                    presets:['es2015','react']
-                }
+                    {
+                        presets: ['es2015', 'react']
+                    }
             }
         ]
     },

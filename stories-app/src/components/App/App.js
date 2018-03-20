@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Header from '../Header/Header';
 import Brands from '../Brands/Brands';
 import Shop from '../Shop/Shop';
+import Vespa from '../Vespa/Vespa';
+import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import './App.scss';
 
@@ -10,11 +12,11 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div className="wood-container">
-        </div>
-        {/* <Shop />
+        <Shop />
+        <Vespa />
         <Brands />
-        <Footer /> */}
+        <Contact />
+        <Footer />
       </div>
     );
   }

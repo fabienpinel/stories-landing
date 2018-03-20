@@ -4,10 +4,10 @@ import './Footer.scss';
 class Footer extends Component {
     render() {
         return (
-            <div>
+            <div className="footer-container">
                 <section className="footer">
                    <p>
-                       Stories 2018
+                   © Copyright Stories 2018
                    </p>
                 </section>
             </div>

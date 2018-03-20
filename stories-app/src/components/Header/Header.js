@@ -15,17 +15,11 @@ class Header extends Component {
                         <img
                             className="logo title"
                             src="../../../assets/img/Title.png" />
-                            <p className="address">
-                            32 Place du Général de Gaulle
-                                <br />
-                                La Haye Du Puits
-                                <br />
-                                </p>
-                                <p>
-                                    Lundi - Samedi : 9h - 19h
-                                    <br />
-                                    Dimanche : 9h - 12h
-                                </p>
+                        <p className="navigation">
+                           <span><a href="#concept">Concept</a></span> - <span><a href="#brands">Marques</a></span> - <span><a href="#contact">Contact</a></span>
+                           
+                        </p>
+                       
                     </div>
                 </section>
             </div>

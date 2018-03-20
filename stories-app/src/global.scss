@@ -3,7 +3,9 @@
     font-family: miracle;
     src: url(/assets/fonts/Miraculous&Christmas.ttf);
 }
-
+*{
+    max-width: 100%;
+}
 // Colors
 $brownTitle: #240000;
 $brownMonkey: #6c4b44;
@@ -37,4 +39,11 @@ $goldCustom: #f5c161;
 section{
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+h1 {
+    font-size: 7em;
+    font-family: miracle;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }

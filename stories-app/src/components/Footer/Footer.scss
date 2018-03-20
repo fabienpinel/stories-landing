@@ -1,9 +1,15 @@
 @import "../../global.scss";
 
-section.footer {
-    text-align: center;
-    background: black;
-    padding: 120px;
-    color: white;
-    font-size: 0.8em;
+.footer-container{
+    background: white;
+
+    section.footer {
+        text-align: center;
+        background: black;
+        padding: 40px;
+        color: white;
+        font-size: 0.8em;
+        border-radius: 50% 50% 0% 0%;
+    }
 }
+

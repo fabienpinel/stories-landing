@@ -1,0 +1,19 @@
+@import "../../global.scss";
+
+section.contact {
+    text-align: center;
+    max-width: 100%;
+    background: white;
+    padding-top: 0px;
+    min-height: 400px;
+
+    .contact-container {
+        background: #60423d;
+        color: white;
+        border-radius: 50% 0% 50% 150%;
+        padding: 100px;
+        padding-top: 30px;
+        width: 70%;
+        float: right;
+    }
+}

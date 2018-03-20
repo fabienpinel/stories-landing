@@ -145,29 +145,30 @@ class Brands extends Component {
 
     render() {
         return (
-            <section className="brands">
+            <section id="brands" className="brands">
                 <Row>
                     <Col sm={12} md={10} mdOffset={1} lg={8} lgOffset={2}>
                         <h1>Nos marques</h1>
+                        <div className="brand-list-container">
 
-                        {this.state.brandList.map(function (brand, index) {
-                            return (
-                                <div
-                                    className="brand-container"
-                                    key={brand.name}>
-                                    <img
-                                        src={"/assets/img/brands/" + brand.logo} />
-                                    <span>
-                                        {brand.name}
-                                    </span>
+                            {this.state.brandList.map(function (brand, index) {
+                                return (
+                                    <div
+                                        className="brand-container"
+                                        key={brand.name}>
+                                        <img
+                                            src={"/assets/img/brands/" + brand.logo} />
+                                        {/* <span>
+                                            {brand.name}
+                                        </span> */}
 
-                                </div>
+                                    </div>
 
 
 
-                            );
-                        })}
-
+                                );
+                            })}
+                        </div>
                     </Col>
                 </Row>
             </section>

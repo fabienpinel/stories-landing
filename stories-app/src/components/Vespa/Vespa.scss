@@ -1,0 +1,35 @@
+@import "../../global.scss";
+
+div#concept {
+    min-height: 400px;
+
+    div.vespa-container {
+        padding: 60px;
+        background: #79acad;
+        border-radius: 50% 150% 50% 0;
+        min-height: 300px;
+        z-index: 3;
+        position: relative;
+        width: 80%;
+        margin-top: 12px;
+        float: left;
+
+        img {
+            bottom: -85px;
+            position: absolute;
+        }
+
+        .vespa-text-container {
+            width: 40%;
+            float: right;
+            margin-right: 12%;
+            height: 300px;
+            margin-top: 40px;
+            color: white;
+
+            h1 {
+                margin: 0;
+            }
+        }
+    }
+}

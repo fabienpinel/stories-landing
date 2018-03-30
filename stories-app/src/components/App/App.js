@@ -34,7 +34,7 @@ class App extends Component {
       <div className="App">
         <Modal open={open} onClose={() => this.onCloseModal()} little>
           <h2 className="center">Ouverture du magasin Samedi 31 Mars !</h2>
-          <img src="/assets/img/storiesbandeauxhorizontal.jpg" />
+          <img src="/assets/img/ouverture.jpg" />
         </Modal>
         <Header />
         <Shop />

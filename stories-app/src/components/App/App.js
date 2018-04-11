@@ -14,7 +14,7 @@ class App extends Component {
     //check if localstorage contains the alreadyOpenned value
     let alreadyOpenned = window.localStorage.getItem('modalAlreadyOpennedOnce');
     this.state = {
-      open: true,
+      open: false,
     };
   }
 

@@ -15,7 +15,7 @@ section.header {
 
     img.logo{
         max-width: 100%;
-        width: 33%;
+        width: 22%;
     }
 
     .address {
@@ -25,11 +25,12 @@ section.header {
     .navigation{
         padding-top: 24px;
         a{
-            text-decoration: none;
+            text-decoration: underline;
             color: black;
          }
          a:hover{
-             text-decoration: underline;
+            text-decoration: none;
+            color: white;
          }
     }
 }

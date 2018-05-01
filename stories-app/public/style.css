@@ -49,17 +49,18 @@ section.header {
   padding-bottom: 90px; }
   section.header img.logo {
     max-width: 100%;
-    width: 33%; }
+    width: 22%; }
   section.header .address {
     padding-top: 12px;
     font-size: 1.1em; }
   section.header .navigation {
     padding-top: 24px; }
     section.header .navigation a {
-      text-decoration: none;
+      text-decoration: underline;
       color: black; }
     section.header .navigation a:hover {
-      text-decoration: underline; }
+      text-decoration: none;
+      color: white; }
 
 div.vespa-container {
   margin-top: -30px;
@@ -141,7 +142,10 @@ div#concept {
     z-index: 3;
     position: relative;
     margin-top: 12px; }
-    div#concept div.vespa-container img {
+    @media screen and (min-width: 1200px) {
+      div#concept div.vespa-container {
+        max-width: 80%; } }
+    div#concept div.vespa-container img.vespa {
       bottom: -85px;
       position: absolute;
       max-width: 55%; }
@@ -153,6 +157,17 @@ div#concept {
       color: white; }
       div#concept div.vespa-container .vespa-text-container h1 {
         margin: 0; }
+      div#concept div.vespa-container .vespa-text-container .social-networks-container {
+        line-height: 0px;
+        vertical-align: middle;
+        text-align: center; }
+        div#concept div.vespa-container .vespa-text-container .social-networks-container span.pads {
+          padding: 12px; }
+        div#concept div.vespa-container .vespa-text-container .social-networks-container img {
+          width: 105px;
+          vertical-align: top; }
+        div#concept div.vespa-container .vespa-text-container .social-networks-container .fb_iframe_widget {
+          vertical-align: sub; }
 @font-face {
   font-family: miracle;
   src: url(/assets/fonts/Miraculous&Christmas.ttf); }

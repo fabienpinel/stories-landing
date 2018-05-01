@@ -12,7 +12,11 @@ div#concept {
         position: relative;
         margin-top: 12px;
 
-        img {
+        @media screen and (min-width: 1200px){
+            max-width: 80%;
+        }
+
+        img.vespa {
             bottom: -85px;
             position: absolute;
             max-width: 55%;
@@ -27,6 +31,26 @@ div#concept {
 
             h1 {
                 margin: 0;
+            }
+
+            .social-networks-container {
+
+                line-height: 0px;
+                vertical-align: middle;
+                text-align: center;
+
+                span.pads{
+                    padding: 12px;
+                }
+
+                img {
+                    width: 105px;
+                    vertical-align: top;
+                }
+
+                .fb_iframe_widget {
+                    vertical-align: sub;
+                }
             }
         }
     }

@@ -9,18 +9,21 @@ class Contact extends Component {
                     <div className="contact-container">
                         <h1>Nous trouver</h1>
                         <div>
-                        <p className="address">
-                            32 Place du Général de Gaulle
+                            <p className="address">
+                                32 Place du Général de Gaulle
                                 <br />
-                            La Haye Du Puits
+                                La Haye Du Puits
                                 <br />
-                        </p>
-                        <p>
-                            Lundi - Samedi : 9h - 19h
+                            </p>
+                            <p>
+                                02 33 46 81 66
+                            </p>
+                            <p>
+                                Mardi, Jeudi, Vendredi : 9h00 - 12h15  /  14h00 - 19h00
                                     <br />
-                            Dimanche : 9h - 12h
+                                Mercredi, Samedi : 9h00 - 12h30  /  14h00 - 19h00
                                 </p>
-                            </div>
+                        </div>
                     </div>
                 </section>
             </div>

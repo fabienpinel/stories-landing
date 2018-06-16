@@ -5,11 +5,23 @@ div.shop-container {
 }
 
 section.shop {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: #f7f7f7;
+    padding-top: 90px;
+    padding-bottom: 0px;
+    background: white;
 
     img.monkeys {
         width: 100%;
     }
+
+    .no-margin{
+        margin: 0
+    }
+
+    .instagram-integration{
+        padding-bottom: 12px;
+
+        iframe{
+            margin: auto !important;
+        }
+    } 
 }

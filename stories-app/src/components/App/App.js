@@ -7,6 +7,7 @@ import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import Modal from 'react-responsive-modal';
 import './App.scss';
+import ShopPictures from '../ShopPictures/ShopPictures';
 
 class App extends Component {
   constructor() {
@@ -37,8 +38,9 @@ class App extends Component {
           <img src="/assets/img/ouverture.jpg" />
         </Modal>
         <Header />
-        <Shop />
+        <ShopPictures />
         <Vespa />
+        <Shop />
         <Brands />
         <Contact />
         <Footer />

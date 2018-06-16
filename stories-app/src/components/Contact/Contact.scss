@@ -15,5 +15,9 @@ section.contact {
         padding-top: 30px;
         width: 70%;
         float: right;
+
+        @media only screen and (max-width: 991px) {
+            padding-right: 30px;
+        }
     }
 }

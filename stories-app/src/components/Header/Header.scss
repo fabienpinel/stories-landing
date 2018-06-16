@@ -15,7 +15,11 @@ section.header {
 
     img.logo{
         max-width: 100%;
-        width: 22%;
+        width: 25%;
+
+        @media only screen and (min-width: 1280px) {
+            width: 14%;
+        }
     }
 
     .address {

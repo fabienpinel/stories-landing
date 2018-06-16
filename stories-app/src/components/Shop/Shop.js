@@ -12,9 +12,9 @@ class Shop extends Component {
         return (
             <div className="shop-container">
                 <section className="shop">
-                    <Row>
+                    <Row className="no-margin">
                         <Col sm={12} lg={10} lgOffset={1}>
-                            <Row>
+                            <Row className="no-margin">
                                 <Col sm={12} md={4}>
                                     <InstagramEmbed
                                         url='https://www.instagram.com/p/Bh0ewAnnnz-/'
@@ -25,6 +25,7 @@ class Shop extends Component {
                                         onSuccess={() => { }}
                                         onAfterRender={() => { }}
                                         onFailure={() => { }}
+                                        className="instagram-integration"
                                     />
 
                                 </Col>
@@ -38,6 +39,7 @@ class Shop extends Component {
                                         onSuccess={() => { }}
                                         onAfterRender={() => { }}
                                         onFailure={() => { }}
+                                        className="instagram-integration"
                                     />
                                 </Col>
                                 <Col sm={12} md={4}>
@@ -50,6 +52,7 @@ class Shop extends Component {
                                         onSuccess={() => { }}
                                         onAfterRender={() => { }}
                                         onFailure={() => { }}
+                                        className="instagram-integration"
                                     />
                                 </Col>
                             </Row>

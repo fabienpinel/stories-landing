@@ -16,10 +16,24 @@ div#concept {
             max-width: 80%;
         }
 
+        @media screen and (max-width: 991px){
+            padding: 30px;
+            padding-bottom: 160px;
+        }
+
+        @media screen and (max-width: 550px){
+            padding: 20px;
+            padding-bottom: 160px;
+        }
+
         img.vespa {
             bottom: -85px;
             position: absolute;
             max-width: 55%;
+
+            @media only screen and (max-width: 550px) {
+                bottom: -24px;
+            }
         }
 
         .vespa-text-container {
@@ -28,6 +42,10 @@ div#concept {
             height: 300px;
             margin-top: 40px;
             color: white;
+
+            @media screen and (max-width: 991px){
+            margin-right: 8%;
+            }
 
             h1 {
                 margin: 0;

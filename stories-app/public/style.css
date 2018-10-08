@@ -108,8 +108,10 @@ section.shop {
     margin: 0; }
   section.shop .instagram-integration {
     padding-bottom: 12px; }
-    section.shop .instagram-integration iframe {
-      margin: auto !important; }
+    section.shop .instagram-integration iframe.instagram-media {
+      margin: auto !important;
+      overflow: hidden;
+      min-width: auto !important; }
 @font-face {
   font-family: miracle;
   src: url(/assets/fonts/Miraculous&Christmas.ttf); }

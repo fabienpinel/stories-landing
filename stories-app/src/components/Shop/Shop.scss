@@ -20,8 +20,10 @@ section.shop {
     .instagram-integration{
         padding-bottom: 12px;
 
-        iframe{
+        iframe.instagram-media{
             margin: auto !important;
+            overflow: hidden;
+            min-width: auto !important;
         }
     } 
 }

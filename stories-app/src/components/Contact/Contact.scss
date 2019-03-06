@@ -5,7 +5,7 @@ section.contact {
     max-width: 100%;
     background: white;
     padding-top: 0px;
-    min-height: 400px;
+    min-height: 620px;
 
     .contact-container {
         background: #60423d;
@@ -15,9 +15,19 @@ section.contact {
         padding-top: 30px;
         width: 70%;
         float: right;
+        padding-right: 0;
 
         @media only screen and (max-width: 991px) {
             padding-right: 30px;
+            border-radius: 50% 0% 50% 92%;
         }
+        @media only screen and (max-width: 650px) {
+            padding-right: 30px;
+            width: auto;
+                border-radius: 50% 0% 50% 92%;
+        }
+    }
+    .contact-separator{
+        width: 50%;
     }
 }

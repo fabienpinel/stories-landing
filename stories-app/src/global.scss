@@ -3,8 +3,11 @@
     font-family: miracle;
     src: url(/assets/fonts/Miraculous&Christmas.ttf);
 }
-*{
+
+body *{
     max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 // Colors
 $brownTitle: #240000;

@@ -6,8 +6,10 @@ body {
   font-family: miracle;
   src: url(/assets/fonts/Miraculous&Christmas.ttf); }
 
-* {
-  max-width: 100%; }
+body * {
+  max-width: 100%;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased; }
 
 .stories-style {
   font-family: miracle;
@@ -116,8 +118,10 @@ section.shop {
   font-family: miracle;
   src: url(/assets/fonts/Miraculous&Christmas.ttf); }
 
-* {
-  max-width: 100%; }
+body * {
+  max-width: 100%;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased; }
 
 .stories-style {
   font-family: miracle;
@@ -186,16 +190,35 @@ div#concept {
       margin-right: 12%;
       height: 300px;
       margin-top: 40px;
-      color: white; }
+      color: white;
+      position: relative; }
       @media screen and (max-width: 991px) {
         div#concept div.vespa-container .vespa-text-container {
-          margin-right: 8%; } }
+          margin-right: 8%;
+          float: none; } }
       div#concept div.vespa-container .vespa-text-container h1 {
         margin: 0; }
       div#concept div.vespa-container .vespa-text-container .social-networks-container {
         line-height: 0px;
         vertical-align: middle;
-        text-align: center; }
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: relative; }
+        div#concept div.vespa-container .vespa-text-container .social-networks-container .social-wrapper {
+          background: white;
+          border-radius: 4px;
+          padding: 6px;
+          margin: 14px;
+          display: flex;
+          width: 320px;
+          padding-left: 18px;
+          box-shadow: 0px 2px 6px grey;
+          margin-bottom: 0px; }
+          div#concept div.vespa-container .vespa-text-container .social-networks-container .social-wrapper .social-title {
+            color: #84b5b6;
+            line-height: 28px;
+            flex-grow: 1; }
         div#concept div.vespa-container .vespa-text-container .social-networks-container span.pads {
           padding: 12px; }
         div#concept div.vespa-container .vespa-text-container .social-networks-container img {
@@ -207,8 +230,10 @@ div#concept {
   font-family: miracle;
   src: url(/assets/fonts/Miraculous&Christmas.ttf); }
 
-* {
-  max-width: 100%; }
+body * {
+  max-width: 100%;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased; }
 
 .stories-style {
   font-family: miracle;
@@ -249,7 +274,7 @@ section.contact {
   max-width: 100%;
   background: white;
   padding-top: 0px;
-  min-height: 400px; }
+  min-height: 620px; }
   section.contact .contact-container {
     background: #60423d;
     color: white;
@@ -257,16 +282,27 @@ section.contact {
     padding: 100px;
     padding-top: 30px;
     width: 70%;
-    float: right; }
+    float: right;
+    padding-right: 0; }
     @media only screen and (max-width: 991px) {
       section.contact .contact-container {
-        padding-right: 30px; } }
+        padding-right: 30px;
+        border-radius: 50% 0% 50% 92%; } }
+    @media only screen and (max-width: 650px) {
+      section.contact .contact-container {
+        padding-right: 30px;
+        width: auto;
+        border-radius: 50% 0% 50% 92%; } }
+  section.contact .contact-separator {
+    width: 50%; }
 @font-face {
   font-family: miracle;
   src: url(/assets/fonts/Miraculous&Christmas.ttf); }
 
-* {
-  max-width: 100%; }
+body * {
+  max-width: 100%;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased; }
 
 .stories-style {
   font-family: miracle;

@@ -41,8 +41,16 @@ class Brands extends Component {
                     logo: "desigual-logo.png"
                 },
                 {
-                    name: "Dkode",
-                    logo: "Dkode.jpg"
+                    name: "Dr Martens",
+                    logo: "Dr Martens.jpg"
+                },
+                {
+                    name: "Fila",
+                    logo: "fila-f-logo.jpg"
+                },
+                {
+                    name: "Grace Mila",
+                    logo: "grace-mila-logo-1466179035.jpg"
                 },
                 {
                     name: "Grain de Sable",
@@ -65,12 +73,16 @@ class Brands extends Component {
                     logo: "lacoste.png"
                 },
                 {
-                    name: "Lee",
-                    logo: "Lee.jpg"
-                },
-                {
                     name: "Les Tropéziennes",
                     logo: "les trope.jpg"
+                },
+                {
+                    name: "Le temps des cerises",
+                    logo: "Le temps des cerises.jpg"
+                },
+                {
+                    name: "Levis",
+                    logo: "levis.png"
                 },
                 {
                     name: "Armistice",
@@ -117,17 +129,22 @@ class Brands extends Component {
                     logo: "PUMA.png"
                 },
                 {
+                    name: "Redskins",
+                    logo: "Redskins.jpg"
+                },
+                {
                     name: "Ruckfield",
                     logo: "Ruckfield.png"
                 },
                 {
                     name: "TBS",
                     logo: "TBS.png"
-                },
+                }, 
                 {
-                    name: "UMBRO",
-                    logo: "UMBRO.png"
-                }, {
+                    name: "Timberland",
+                    logo: "Timberland.jpg"
+                }, 
+                {
                     name: "Vans",
                     logo: "vans-logo.jpg"
                 },

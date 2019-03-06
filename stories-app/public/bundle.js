@@ -22241,8 +22241,14 @@
 	                name: "Desigual",
 	                logo: "desigual-logo.png"
 	            }, {
-	                name: "Dkode",
-	                logo: "Dkode.jpg"
+	                name: "Dr Martens",
+	                logo: "Dr Martens.jpg"
+	            }, {
+	                name: "Fila",
+	                logo: "fila-f-logo.jpg"
+	            }, {
+	                name: "Grace Mila",
+	                logo: "grace-mila-logo-1466179035.jpg"
 	            }, {
 	                name: "Grain de Sable",
 	                logo: "grain-de-sable.jpg"
@@ -22259,11 +22265,14 @@
 	                name: "Lacoste",
 	                logo: "lacoste.png"
 	            }, {
-	                name: "Lee",
-	                logo: "Lee.jpg"
-	            }, {
 	                name: "Les Tropéziennes",
 	                logo: "les trope.jpg"
+	            }, {
+	                name: "Le temps des cerises",
+	                logo: "Le temps des cerises.jpg"
+	            }, {
+	                name: "Levis",
+	                logo: "levis.png"
 	            }, {
 	                name: "Armistice",
 	                logo: "logo armistice-chaussures.jpg"
@@ -22298,14 +22307,17 @@
 	                name: "PUMA",
 	                logo: "PUMA.png"
 	            }, {
+	                name: "Redskins",
+	                logo: "Redskins.jpg"
+	            }, {
 	                name: "Ruckfield",
 	                logo: "Ruckfield.png"
 	            }, {
 	                name: "TBS",
 	                logo: "TBS.png"
 	            }, {
-	                name: "UMBRO",
-	                logo: "UMBRO.png"
+	                name: "Timberland",
+	                logo: "Timberland.jpg"
 	            }, {
 	                name: "Vans",
 	                logo: "vans-logo.jpg"
@@ -24672,28 +24684,79 @@
 	                                    'div',
 	                                    { className: 'social-networks-container' },
 	                                    _react2.default.createElement(
-	                                        'span',
-	                                        { className: 'pads' },
+	                                        'div',
+	                                        { className: 'social-wrapper social-lhdp' },
 	                                        _react2.default.createElement(
-	                                            'a',
-	                                            { href: 'https://www.facebook.com/Stories-La-Haye-du-Puits-782857888481514/', target: '_blanck' },
-	                                            _react2.default.createElement('div', {
-	                                                className: 'fb-like',
-	                                                'data-href': 'https://www.facebook.com/Stories-La-Haye-du-Puits-782857888481514/',
-	                                                'data-layout': 'button_count',
-	                                                'data-action': 'like',
-	                                                'data-size': 'large',
-	                                                'data-show-faces': 'false',
-	                                                'data-share': 'false' })
+	                                            'div',
+	                                            { className: 'social-title' },
+	                                            'La Haye'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            'div',
+	                                            { className: 'social-content' },
+	                                            _react2.default.createElement(
+	                                                'span',
+	                                                { className: 'pads' },
+	                                                _react2.default.createElement(
+	                                                    'a',
+	                                                    { href: 'https://www.facebook.com/Stories-La-Haye-du-Puits-782857888481514/', target: '_blanck' },
+	                                                    _react2.default.createElement('div', {
+	                                                        className: 'fb-like',
+	                                                        'data-href': 'https://www.facebook.com/Stories-La-Haye-du-Puits-782857888481514/',
+	                                                        'data-layout': 'button_count',
+	                                                        'data-action': 'like',
+	                                                        'data-size': 'large',
+	                                                        'data-show-faces': 'false',
+	                                                        'data-share': 'false' })
+	                                                )
+	                                            ),
+	                                            _react2.default.createElement(
+	                                                'span',
+	                                                null,
+	                                                _react2.default.createElement(
+	                                                    'a',
+	                                                    { href: 'https://www.instagram.com/stories_lhdp/', target: '_blanck' },
+	                                                    _react2.default.createElement('img', { src: '/assets/img/instagram-button.png' })
+	                                                )
+	                                            )
 	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
-	                                        'span',
-	                                        null,
+	                                        'div',
+	                                        { className: 'social-wrapper social-coutances' },
 	                                        _react2.default.createElement(
-	                                            'a',
-	                                            { href: 'https://www.instagram.com/stories_lhdp/', target: '_blanck' },
-	                                            _react2.default.createElement('img', { src: '/assets/img/instagram-button.png' })
+	                                            'div',
+	                                            { className: 'social-title' },
+	                                            'Coutances'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            'div',
+	                                            { className: 'social-content' },
+	                                            _react2.default.createElement(
+	                                                'span',
+	                                                { className: 'pads' },
+	                                                _react2.default.createElement(
+	                                                    'a',
+	                                                    { href: 'https://www.facebook.com/Stories-Coutances-457314484439257', target: '_blanck' },
+	                                                    _react2.default.createElement('div', {
+	                                                        className: 'fb-like',
+	                                                        'data-href': 'https://www.facebook.com/Stories-Coutances-457314484439257',
+	                                                        'data-layout': 'button_count',
+	                                                        'data-action': 'like',
+	                                                        'data-size': 'large',
+	                                                        'data-show-faces': 'false',
+	                                                        'data-share': 'false' })
+	                                                )
+	                                            ),
+	                                            _react2.default.createElement(
+	                                                'span',
+	                                                null,
+	                                                _react2.default.createElement(
+	                                                    'a',
+	                                                    { href: 'https://www.instagram.com/stories_lhdp/', target: '_blanck' },
+	                                                    _react2.default.createElement('img', { src: '/assets/img/instagram-button.png' })
+	                                                )
+	                                            )
 	                                        )
 	                                    )
 	                                )
@@ -24772,24 +24835,63 @@
 	                            'div',
 	                            null,
 	                            _react2.default.createElement(
-	                                'p',
-	                                { className: 'address' },
-	                                '32 Place du G\xE9n\xE9ral de Gaulle',
-	                                _react2.default.createElement('br', null),
-	                                'La Haye Du Puits',
-	                                _react2.default.createElement('br', null)
+	                                'div',
+	                                { className: 'city-contact-wrapper' },
+	                                _react2.default.createElement(
+	                                    'h3',
+	                                    null,
+	                                    'LA HAYE DU PUITS'
+	                                ),
+	                                _react2.default.createElement(
+	                                    'p',
+	                                    { className: 'address' },
+	                                    '32 Place du G\xE9n\xE9ral de Gaulle',
+	                                    _react2.default.createElement('br', null),
+	                                    'La Haye Du Puits',
+	                                    _react2.default.createElement('br', null)
+	                                ),
+	                                _react2.default.createElement(
+	                                    'p',
+	                                    null,
+	                                    '02 33 46 81 66'
+	                                ),
+	                                _react2.default.createElement(
+	                                    'p',
+	                                    null,
+	                                    'Mardi, Jeudi, Vendredi : 9h00 - 12h15  /  14h00 - 19h00',
+	                                    _react2.default.createElement('br', null),
+	                                    'Mercredi, Samedi : 9h00 - 12h30  /  14h00 - 19h00'
+	                                )
 	                            ),
+	                            _react2.default.createElement('hr', { className: 'contact-separator' }),
 	                            _react2.default.createElement(
-	                                'p',
-	                                null,
-	                                '02 33 46 81 66'
-	                            ),
-	                            _react2.default.createElement(
-	                                'p',
-	                                null,
-	                                'Mardi, Jeudi, Vendredi : 9h00 - 12h15  /  14h00 - 19h00',
-	                                _react2.default.createElement('br', null),
-	                                'Mercredi, Samedi : 9h00 - 12h30  /  14h00 - 19h00'
+	                                'div',
+	                                { className: 'city-contact-wrapper' },
+	                                _react2.default.createElement(
+	                                    'h3',
+	                                    null,
+	                                    'COUTANCES'
+	                                ),
+	                                _react2.default.createElement(
+	                                    'p',
+	                                    { className: 'address' },
+	                                    '25 bis rue saint nicolas',
+	                                    _react2.default.createElement('br', null),
+	                                    'COUTANCES',
+	                                    _react2.default.createElement('br', null)
+	                                ),
+	                                _react2.default.createElement(
+	                                    'p',
+	                                    null,
+	                                    '02 33 19 02 02'
+	                                ),
+	                                _react2.default.createElement(
+	                                    'p',
+	                                    null,
+	                                    'lundi 14h - 19h',
+	                                    _react2.default.createElement('br', null),
+	                                    'mardi au samedi : 9h30 - 12h30  14h  - 19h'
+	                                )
 	                            )
 	                        )
 	                    )

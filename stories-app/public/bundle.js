@@ -24679,83 +24679,83 @@
 	                                    'p',
 	                                    null,
 	                                    'Pour ne rien rater, rejoignez nous sur Facebook et Instagram.'
-	                                ),
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'social-networks-container' },
 	                                _react2.default.createElement(
 	                                    'div',
-	                                    { className: 'social-networks-container' },
+	                                    { className: 'social-wrapper social-lhdp' },
 	                                    _react2.default.createElement(
 	                                        'div',
-	                                        { className: 'social-wrapper social-lhdp' },
-	                                        _react2.default.createElement(
-	                                            'div',
-	                                            { className: 'social-title' },
-	                                            'La Haye'
-	                                        ),
-	                                        _react2.default.createElement(
-	                                            'div',
-	                                            { className: 'social-content' },
-	                                            _react2.default.createElement(
-	                                                'span',
-	                                                { className: 'pads' },
-	                                                _react2.default.createElement(
-	                                                    'a',
-	                                                    { href: 'https://www.facebook.com/Stories-La-Haye-du-Puits-782857888481514/', target: '_blanck' },
-	                                                    _react2.default.createElement('div', {
-	                                                        className: 'fb-like',
-	                                                        'data-href': 'https://www.facebook.com/Stories-La-Haye-du-Puits-782857888481514/',
-	                                                        'data-layout': 'button_count',
-	                                                        'data-action': 'like',
-	                                                        'data-size': 'large',
-	                                                        'data-show-faces': 'false',
-	                                                        'data-share': 'false' })
-	                                                )
-	                                            ),
-	                                            _react2.default.createElement(
-	                                                'span',
-	                                                null,
-	                                                _react2.default.createElement(
-	                                                    'a',
-	                                                    { href: 'https://www.instagram.com/stories_lhdp/', target: '_blanck' },
-	                                                    _react2.default.createElement('img', { src: '/assets/img/instagram-button.png' })
-	                                                )
-	                                            )
-	                                        )
+	                                        { className: 'social-title' },
+	                                        'La Haye'
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'div',
-	                                        { className: 'social-wrapper social-coutances' },
+	                                        { className: 'social-content' },
 	                                        _react2.default.createElement(
-	                                            'div',
-	                                            { className: 'social-title' },
-	                                            'Coutances'
+	                                            'span',
+	                                            { className: 'pads' },
+	                                            _react2.default.createElement(
+	                                                'a',
+	                                                { href: 'https://www.facebook.com/Stories-La-Haye-du-Puits-782857888481514/', target: '_blanck' },
+	                                                _react2.default.createElement('div', {
+	                                                    className: 'fb-like',
+	                                                    'data-href': 'https://www.facebook.com/Stories-La-Haye-du-Puits-782857888481514/',
+	                                                    'data-layout': 'button_count',
+	                                                    'data-action': 'like',
+	                                                    'data-size': 'large',
+	                                                    'data-show-faces': 'false',
+	                                                    'data-share': 'false' })
+	                                            )
 	                                        ),
 	                                        _react2.default.createElement(
-	                                            'div',
-	                                            { className: 'social-content' },
+	                                            'span',
+	                                            null,
 	                                            _react2.default.createElement(
-	                                                'span',
-	                                                { className: 'pads' },
-	                                                _react2.default.createElement(
-	                                                    'a',
-	                                                    { href: 'https://www.facebook.com/Stories-Coutances-457314484439257', target: '_blanck' },
-	                                                    _react2.default.createElement('div', {
-	                                                        className: 'fb-like',
-	                                                        'data-href': 'https://www.facebook.com/Stories-Coutances-457314484439257',
-	                                                        'data-layout': 'button_count',
-	                                                        'data-action': 'like',
-	                                                        'data-size': 'large',
-	                                                        'data-show-faces': 'false',
-	                                                        'data-share': 'false' })
-	                                                )
-	                                            ),
+	                                                'a',
+	                                                { href: 'https://www.instagram.com/stories_lhdp/', target: '_blanck' },
+	                                                _react2.default.createElement('img', { src: '/assets/img/instagram-button.png' })
+	                                            )
+	                                        )
+	                                    )
+	                                ),
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    { className: 'social-wrapper social-coutances' },
+	                                    _react2.default.createElement(
+	                                        'div',
+	                                        { className: 'social-title' },
+	                                        'Coutances'
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        'div',
+	                                        { className: 'social-content' },
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { className: 'pads' },
 	                                            _react2.default.createElement(
-	                                                'span',
-	                                                null,
-	                                                _react2.default.createElement(
-	                                                    'a',
-	                                                    { href: 'https://www.instagram.com/stories_lhdp/', target: '_blanck' },
-	                                                    _react2.default.createElement('img', { src: '/assets/img/instagram-button.png' })
-	                                                )
+	                                                'a',
+	                                                { href: 'https://www.facebook.com/Stories-Coutances-457314484439257', target: '_blanck' },
+	                                                _react2.default.createElement('div', {
+	                                                    className: 'fb-like',
+	                                                    'data-href': 'https://www.facebook.com/Stories-Coutances-457314484439257',
+	                                                    'data-layout': 'button_count',
+	                                                    'data-action': 'like',
+	                                                    'data-size': 'large',
+	                                                    'data-show-faces': 'false',
+	                                                    'data-share': 'false' })
+	                                            )
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            null,
+	                                            _react2.default.createElement(
+	                                                'a',
+	                                                { href: 'https://www.instagram.com/stories_lhdp/', target: '_blanck' },
+	                                                _react2.default.createElement('img', { src: '/assets/img/instagram-button.png' })
 	                                            )
 	                                        )
 	                                    )
